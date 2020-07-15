@@ -48,13 +48,13 @@ We know time is precious, we won't mark you down for not doing the extra credits
 
 #### What scripting languages can I use?
 
-Anyone you like. You’ll have to justify your decision. We use bash, Ansible and Terraform. Howevr, feel free to pick something you're familiar with, as you'll need to be able to discuss it.
+Any one you like. You’ll have to justify your decision. We use bash, Ansible and Terraform. Howevr, feel free to pick something you're familiar with, as you'll need to be able to discuss it.
 
 #### Will I have to pay for the AWS charges?
 
 No. You are expected to use free-tier resources only and not generate any charges. Please remember to delete your resources once the review process is over so you are not charged by AWS.
 
-#### What will you be grading me on?
+#### What will you be evaluating me on?
 
 Scripting skills, ellegance, understanding of the technologies you use, security, documentation.
 
@@ -62,7 +62,3 @@ Scripting skills, ellegance, understanding of the technologies you use, security
 
 Feel free to comment your code, or put explanations in a pull request within the repo.
 If we proceed to a phone interview, we’ll be asking questions about why you made the choices you made.
-
-#### Why doesn't the test include X?
-
-Good question.  I'm just looking for something simple at this time.
