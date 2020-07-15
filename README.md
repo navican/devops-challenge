@@ -15,7 +15,6 @@ You are required to set up a new server in AWS. It must:
 
 * Be publicly accessible.
 * Run Nginx.
-* Have a valid SSL certificate (Let's Encrypt)
 * Serve a `/version.txt` file, containing only static text representing a version number, for example:
 
 ```
@@ -42,6 +41,8 @@ We know time is precious, we won't mark you down for not doing the extra credits
 * Put the server behind a load balancer.
 * Run Nginx inside a Docker container.
 * Make the checker script SSH into the instance, check if Nginx is running and start it if it isn't.
+* Have a domain name and a valid SSL certificate (Let's Encrypt) or be able to decribe what would need to happen to get SSL certificate and a decure nginx configuration.
+* Provide an upstream application on a seperate port, and use nginx to serve it.  Bonus points if docker is used.
 
 # Questions
 
