@@ -38,7 +38,7 @@ Fork this repository.
 
 We know time is precious, we won't mark you down for not doing the extra credits, but if you want to give them a go...
 
-* Use a configuration management tool (such as Puppet, Chef or Ansible) to bootstrap the server.
+* Use a configuration management tool (such as Terraform or Ansible) to bootstrap the server.
 * Put the server behind a load balancer.
 * Run Nginx inside a Docker container.
 * Make the checker script SSH into the instance, check if Nginx is running and start it if it isn't.
