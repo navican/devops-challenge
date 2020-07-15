@@ -33,7 +33,6 @@ Fork this repository.
   * Create the server.
   * Run the checker script.
 
-Give our account `engagetech` access to your fork, and send us an email when you’re done. Feel free to ask questions if anything is unclear, confusing, or just plain missing.
 
 # Extra Credit
 
