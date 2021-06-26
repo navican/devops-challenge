@@ -9,5 +9,9 @@
         register: services_state
       - name: debug
         debug:
-          var: services_state      
-
+          var: services_state
+      - name: copy the output to a local file
+        copy:
+          content: "{% for hostoutput in services_state %}{{ hostoutput }}{% endfor %}"
+          dest: "/home/ec2-user/devops-challenge/ansible/output.txt"
+        delegate_to: localhost
