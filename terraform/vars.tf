@@ -12,7 +12,7 @@ variable "public-sub-cidr" {
 
 # EC2 Variables
 variable "ami" {
-    default = "ami-0ab4d1e9cf9a1215a"
+    default = "ami-0747bdcabd34c712a"
 }
 
 variable "ec2-instance-type" {
